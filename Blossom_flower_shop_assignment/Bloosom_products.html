@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <!-- <link rel="stylesheet" type="text/css" href="D:\Sai_MiTRAz\Blossom_flower_shop_assignment\Blossom_flower_shop_assignment\CSS\Bloosom-style.css"> -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            margin: 0 10px;
+        }
+
+        /* ---------------------------------HEADER------------------------------- */
+        .header img {
+            width: 300px;
+            height: 150px;
+        }
+
+        .header {
+            margin:10px 10px 10px 20px;
+            display: flex;
+        }
+
+        .nav {
+            width: 100%;
+            margin: 60px 0 60px 10px;
+            background-color: #0d2056;
+            border-radius: 5px;
+            padding: 10px 10px 10px 1px;
+        }
+
+        .nav a {
+            /* width: 100%; */
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            padding: 10px 15px;
+        }
+
+        .nav a:hover {
+            background-color: white;
+            color: black;
+        }
+
+        .nav a.active {
+            background-color: red;
+        }
+        .end{
+            margin-left: 60%;
+        }
+
+        /* -------------------FLOWERS NAVIGATION---------------------  */
+        
+        .nav1{
+            margin-left: 20px;
+        }
+        .nav1 a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            padding: 5px 15px;
+            background-color: white;
+            border: 2px solid rgba(0, 0, 0, 0.599);
+            border-radius: 5px;
+            margin: 10px 5px;
+        }
+        .nav1 a:hover{
+            background-color: red;
+            color: white;
+        }
+        .nav1 a.active{
+            background-color: #0d2056;
+            color: white;
+        }
+
+
+        /* -----------------------------ALL IMAGES----------------------------------- */
+
+        .all_imgs{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            margin: 20px 20px 20px 25px;
+            gap: 20px;
+
+        }
+
+        .all_imgs img{
+            border: 2px outset rgba(0, 0, 0, 0.555);
+            border-radius: 5px;
+            width: 100%;
+            height: 300px;
+        }
+
+        @media screen and (max-width: 568px){
+            .header img{
+                height: 200px;
+                width: 450px;
+            }
+            .header{
+                flex-direction: column;
+                margin: 10px;
+            }
+            .nav{
+                display: flex;
+            }
+            .end{
+                margin: 0;
+            }
+
+            .all_imgs{
+                margin: 15px 17px 10px 25px;
+                gap: 10px;
+            }
+            .all_imgs img{
+                height: 100px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <header>
+            <img src="./images/logo.png">
+        </header>
+        <nav class="nav">
+            <a href="Bloosom_home.html" >Home</a>
+            <a href="#" class="active">Products</a>
+            <a href="Bloosom_videoimg.html">Videos</a>
+            <a href="Bloosom_Contactform.html">Contact Us</a>
+            <a href="#" class="end">Logout</a>
+        </nav>
+    </div>
+    <nav class="nav1">
+            <a href="#" class="active">ALL</a>
+            <a href="Prod_Roses.html">ROSES</a>
+            <a href="Prod_Orchid.html">ORCHIDS</a>
+            <a href="Prod_Sympathy.html">SYMPATHY</a>
+    </nav>
+    <div class="all_imgs">
+        <div><img src="./images/o7.jpg"></div>
+        <div><img src="./images/o8.jpg"></div>
+        <div><img src="./images/o9.jpg"></div>
+        <div><img src="./images/o10.jpg"></div>
+        <div><img src="./images/o1.jpg"></div>
+        <div><img src="./images/o2.jpg"></div>
+        <div><img src="./images/o3.jpg"></div>
+        <div><img src="./images/o4.jpg"></div>
+        <div><img src="./images/o5.jpg"></div>
+        <div><img src="./images/o6.jpg"></div>
+        <div><img src="./images/r6.jpg"></div>
+        <div><img src="./images/r7.jpg"></div>
+        <div><img src="./images/r8.jpg"></div>
+        <div><img src="./images/r9.jpg"></div>
+        <div><img src="./images/r10.jpg"></div>
+        <div><img src="./images/r11.jpg"></div>
+        <div><img src="./images/r12.jpg"></div>
+        <div><img src="./images/r13.jpg"></div>
+        <div><img src="./images/r14.jpg"></div>
+        <div><img src="./images/r5.jpg"></div>
+        <div><img src="./images/r4.jpg"></div>
+        <div><img src="./images/r3.jpg"></div>
+        <div><img src="./images/r2.jpg"></div>
+        <div><img src="./images/r1.jpg"></div>
+        <div><img src="./images/b1.jpg"></div>
+        <div><img src="./images/b2.jpg"></div>
+        <div><img src="./images/b3.jpg"></div>
+        <div><img src="./images/b4.jpg  "></div>
+        <div><img src="./images/b5.jpg"></div>
+        <div><img src="./images/b6.jpg"></div>
+        <div><img src="./images/a1.jpg"></div>
+        <div><img src="./images/a2.jpg"></div>
+        <div><img src="./images/a3.jpg"></div>
+        <div><img src="./images/a4.jpg"></div>
+        <div><img src="./images/a5.jpg"></div>
+        <div><img src="./images/a6.jpg"></div>
+        <div><img src="./images/a7.jpg"></div>
+        <div><img src="./images/a8.jpg"></div>
+        <div><img src="./images/a9.jpg"></div>
+        <div><img src="./images/a10.jpg"></div>
+    </div>
+</body>
+
+</html>
